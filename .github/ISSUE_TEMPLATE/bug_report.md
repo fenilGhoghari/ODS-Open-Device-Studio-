@@ -1,18 +1,18 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+Name: Bug report
+About: Create a report to help us improve
+Title: ''
+Labels: ''
+Assignees: ''
 
 ---
 
 ---
-name: 🐞 Bug Report
-about: Report a bug or unexpected behavior in Open Device Studio
-title: "[Bug]: "
-labels: bug
-assignees: ''
+Name: 🐞 Bug Report
+About: Report a bug or unexpected behavior in Open Device Studio
+Title: "[Bug]: "
+Labels: bug
+Assignees: ''
 ---
 
 ## 🐞 Bug Description
