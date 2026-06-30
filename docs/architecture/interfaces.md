@@ -41,6 +41,7 @@ Interfaces provide:
 ---
 
 # Example
+```text
 
 +----------------------+
 |   Serial Plugin      |
@@ -65,7 +66,7 @@ Interfaces provide:
 +----------------------+
 | Operating System     |
 +----------------------+
-
+```
 ---
 
 # Core Interfaces
