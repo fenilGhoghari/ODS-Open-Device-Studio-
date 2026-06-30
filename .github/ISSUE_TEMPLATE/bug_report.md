@@ -1,9 +1,9 @@
 ---
-Name: "🐞 Bug Report"
-About: "Report a bug or unexpected behavior in Open Device Studio"
-Title: "[Bug]: "
-Labels: ["bug"]
-Assignees: []
+name: "🐞 Bug Report"
+about: "Report a bug or unexpected behavior in Open Device Studio"
+title: "[Bug]: "
+labels: ["bug"]
+assignees: []
 ---
 
 # 🐞 Bug Description
