@@ -59,6 +59,7 @@ Unload Plugin
 ---
 
 # Plugin Discovery
+```text
 
 The application scans the `plugins/` directory on startup.
 
@@ -75,10 +76,12 @@ Each plugin contains:
 - Shared Library (.dll / .so / .dylib)
 - plugin.json
 - Resources
+```
 
 ---
 
 # Plugin Metadata
+```text
 
 Every plugin must provide a metadata file.
 
@@ -92,6 +95,7 @@ Example:
     "description": "Serial communication terminal",
     "dependencies": []
 }
+```
 
 ---
 
