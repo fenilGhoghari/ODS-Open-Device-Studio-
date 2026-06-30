@@ -1,5 +1,6 @@
+```text
 OpenDeviceStudio/
-
+│
 ├── apps/
 │   └── desktop/
 │
@@ -28,11 +29,8 @@ OpenDeviceStudio/
 │   └── firmware-manager/
 │
 ├── sdk/
-│
 ├── docs/
-│
 ├── tests/
-│
 ├── third_party/
-│
 └── tools/
+```
