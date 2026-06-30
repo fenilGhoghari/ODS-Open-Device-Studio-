@@ -21,6 +21,7 @@ The application follows a modular, layered architecture that allows new features
 ---
 
 # High-Level Architecture
+```text
 
 +------------------------------------------------+
 |                 Presentation Layer             |
@@ -41,7 +42,7 @@ The application follows a modular, layered architecture that allows new features
 |             Hardware Abstraction               |
 | Windows / Linux / macOS APIs                   |
 +------------------------------------------------+
-
+```
 ---
 
 # Layer Responsibilities
@@ -150,37 +151,25 @@ Supports
 
 # Dependency Rules
 
-Allowed
+## Allowed Dependencies
 
-Presentation
-↓
+```mermaid
+graph TD
+    Presentation --> PluginManager
+    PluginManager --> ServiceManager
+    ServiceManager --> CommunicationLayer
+    CommunicationLayer --> PlatformLayer
+    PlatformLayer --> OperatingSystem
+```
 
-Plugin Manager
-↓
+## Not Allowed Dependencies
 
-Services
-↓
-
-Communication
-
-Not Allowed
-
-Communication
-↓
-
-Presentation
-
-Plugins
-↓
-
-Operating System
-
-Presentation
-↓
-
-QtSerialPort
-
----
+```mermaid
+graph LR
+    CommunicationLayer -. Not Allowed .-> Presentation
+    Plugin -. Not Allowed .-> QtSerialPort
+    Plugin -. Not Allowed .-> OperatingSystem
+```
 
 # Communication Flow
 
