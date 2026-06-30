@@ -1,21 +1,12 @@
 ---
-Name: Bug report
-About: Create a report to help us improve
-Title: ''
-Labels: ''
-Assignees: ''
-
----
-
----
-Name: 🐞 Bug Report
-About: Report a bug or unexpected behavior in Open Device Studio
+Name: "🐞 Bug Report"
+About: "Report a bug or unexpected behavior in Open Device Studio"
 Title: "[Bug]: "
-Labels: bug
-Assignees: ''
+Labels: ["bug"]
+Assignees: []
 ---
 
-## 🐞 Bug Description
+# 🐞 Bug Description
 
 A clear and concise description of the bug.
 
@@ -62,36 +53,32 @@ Paste logs here...
 
 OS Version:
 
-```
-Example: Windows 11 24H2
+```text
+Example:
+Windows 11 24H2
 Ubuntu 24.04
 macOS 15
 ```
 
----
-
 ### Open Device Studio Version
 
+```text
+Example:
+v0.1.0
 ```
-Example: v0.1.0
-```
-
----
 
 ### Compiler (if building from source)
 
-```
+```text
 Example:
 GCC 14.1
 MSVC 2022
 Clang 18
 ```
 
----
-
 ### Qt Version
 
-```
+```text
 Example:
 Qt 6.9.0
 ```
@@ -109,7 +96,7 @@ Qt 6.9.0
 
 Device Name:
 
-```
+```text
 Example:
 ESP32-S3
 STM32H743
@@ -140,10 +127,8 @@ STM32H743
 
 ## 📌 Additional Information
 
-Add any other information that may help us understand the issue.
-
-```
-Additional details...
+```text
+Add any additional information here...
 ```
 
 ---
